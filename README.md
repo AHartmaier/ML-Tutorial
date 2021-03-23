@@ -6,9 +6,9 @@
   - Organization: ICAMS, Ruhr University Bochum, Germany
   - Contact: <alexander.hartmaier@rub.de>
 
-Machine learning methods are trained to different data sets to work either as regression functions or to find the delimiter lines between classes of data points with different characteristics.
+Machine learning methods are trained with different data sets to work either as regression functions or to find the delimiter lines between classes of data points with different characteristics.
 
-## Jupyter notebooks
+## Jupyter notebooks on Binder
 
 The tutorial is conveniently used with Jupyter notebooks that can be directly accessed with Binder:  
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/AHartmaier/ML-Tutorial.git/HEAD)
@@ -17,7 +17,7 @@ The tutorial is conveniently used with Jupyter notebooks that can be directly ac
 
 ## Installation
 
-To use the tutorial on your own hardware, you need an [Anaconda](https://www.anaconda.com/products/individual) installation.
+To use the tutorial on your own hardware, you need an [Anaconda](https://www.anaconda.com/products/individual) or [Miniconda](https://docs.conda.io/en/latest/miniconda.html) installation with a recent Python version. Then follow those steps:
 
 1. Download the contents of the [GitHub repository](https://github.com/AHartmaier/ML-Tutorial.git), e.g. with  
 ```
@@ -44,10 +44,10 @@ $ conda activate ml-tutorial
 ```
 $ jupyter lab
 ```
-6. Open the tutorials in the notebooks.
+6. Open the jupyter notebooks (.ipynb) to follow the tutorials.
 
 ## De-Installation
-If you want to remove the tutorial form your computer, you need to
+If you want to remove the tutorial from your hardware, you need to follow those steps:
  
 1. Deactivate the conda environment  
 ```
