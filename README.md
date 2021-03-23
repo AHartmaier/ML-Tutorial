@@ -1,86 +1,85 @@
-# pyLabFEA
+# Machine Learning Tutorial
 
-### Python Laboratory for Finite Element Analysis
+### Numerical examples for regression and classification of data
 
   - Author: Alexander Hartmaier
   - Organization: ICAMS, Ruhr University Bochum, Germany
   - Contact: <alexander.hartmaier@rub.de>
 
-Finite Element Analysis (FEA) is a numerical method for studying
-mechanical behavior of fluids and solids. The pyLabFEA package
-introduces a simple version of FEA for solid mechanics and
-elastic-plastic materials, which is fully written in Python. Due to
-its simplicity, it is well-suited for teaching, and its flexibility in
-constitutive modeling of materials makes it a useful research tool.
-
-## Installation
-
-The pyLabFEA package can be installed directly from the GitHub repository with the following command
-
-```
-$ python -m pip install git+https://github.com/AHartmaier/pyLabFEA.git
-```
-
-Alternatively, the repository can be cloned locally and installed via
-
-```
-$ python -m pip install . --user
-```
-
-from within the `trunk` directory. After this, the package can by imported into python with
-
-```python
-import pylabfea as FE
-```
-
-The correct implementation can be tested with
-
-```
-$ pytest tests
-```
-
-## Documentation
-
-Online documentation for pyLabFEA can be found under https://ahartmaier.github.io/pyLabFEA/.
-For offline use, open pyLabFEA/docs/index.html to browse through the contents.
-The documentation is generated using [Sphinx](http://www.sphinx-doc.org/en/master/).
+Machine learning methods are trained to different data sets to work either as regression functions or to find the delimiter lines between classes of data points with different characteristics.
 
 ## Jupyter notebooks
 
-pyLabFEA is conveniently used with Jupyter notebooks. 
-Available notebooks with tutorials on linear and non-linear FEA, homogenization of elastic and
-elastic-plastic material behavior, and constitutive models based on
-machine learning algorithms are contained in subfolder `notebooks`. An
-overview on the contents of the notebooks is available [here](https://ahartmaier.github.io/pyLabFEA/examples.html).
+The tutorial is conveniently used with Jupyter notebooks that can be directly accessed with Binder:  
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/AHartmaier/ML-Tutorial.git/HEAD)
 
-The Jupyter notebooks of the pyLabFEA tutorials are also available on Binder 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/AHartmaier/pyLabFEA.git/master)
+[https://mybinder.org/v2/gh/AHartmaier/ML-Tutorial.git/HEAD]()
 
+## Installation
 
-## Contributions
+To use the tutorial on your own hardware, you need an [Anaconda](https://www.anaconda.com/products/individual) installation.
 
-Contributions to the pyLabFEA package are highly welcome, either in form of new 
-notebooks with application examples or tutorials, or in form of new functionalities 
-to the Python code. Furthermore, bug reports or any comments on possible improvements of 
-the code or its documentation are greatly appreciated.
+1. Download the contents of the [GitHub repository](https://github.com/AHartmaier/ML-Tutorial.git), e.g. with  
+```
+$ git clone https://github.com/AHartmaier/ML-Tutorial.git
+```  
+or download and unpack the ZIP archive directly from GitHub.
+
+2. Change the working directory  
+```
+$ cd ML-Tutorial
+```
+
+3. Create a conda environment  
+```
+$ conda env create -f environment.yml
+```
+
+4. Activate the environment  
+```
+$ conda activate ml-tutorial
+```
+
+5. Start JupyterLab (or juypter notebook)  
+```
+$ jupyter lab
+```
+6. Open the tutorials in the notebooks.
+
+## De-Installation
+If you want to remove the tutorial form your computer, you need to
+ 
+1. Deactivate the conda environment  
+```
+$ conda deactivate
+```
+
+2. Remove the environment  
+```
+$ conda env remove -n ml-tutorial
+```
+
+3. Delete the folder ML-Tutorial  
+```
+$ cd ..; rm -rf ML-Tutorial
+```
 
 ## Dependencies
 
-pyLabFEA requires the following packages as imports:
+The tutorial uses the following packages, which are automatically installed in the environment when following the instruction above:
 
- - [NumPy](http://numpy.scipy.org) for array handling
- - [Scipy](https://www.scipy.org/) for numerical solutions
+ - [NumPy](http://numpy.scipy.org) for array handling and mathematical operations
  - [scikit-learn](https://scikit-learn.org/stable/) for machine learning algorithms
  - [MatPlotLib](https://matplotlib.org/) for graphical output
  - [pandas](https://pandas.pydata.org/) for data import
 
 ## License
 
-The pyLabFEA package comes with ABSOLUTELY NO WARRANTY. This is free
+The software in this tutorial comes with ABSOLUTELY NO WARRANTY. This is free
 software, and you are welcome to redistribute it under the conditions of
 the GNU General Public License
 ([GPLv3](http://www.fsf.org/licensing/licenses/gpl.html))
 
-The contents of the examples and notebooks are published under the 
+The contents of the notebooks are published under the 
 Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License
 ([CC BY-NC-SA 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0/))
