@@ -1,0 +1,11 @@
+name: ml-tutorial
+channels:
+  - conda-forge
+dependencies:
+  - numpy
+  - matplotlib
+  - scikit-learn
+  - pandas
+  - jupyter
+  - jupyterlab
+ 
