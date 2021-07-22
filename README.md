@@ -13,7 +13,7 @@ Machine learning methods are trained with different data sets to work either as 
 The tutorial is conveniently used with Jupyter notebooks that can be directly accessed with Binder:  
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/AHartmaier/ML-Tutorial.git/HEAD)
 
-[https://mybinder.org/v2/gh/AHartmaier/ML-Tutorial.git/HEAD]()
+[https://mybinder.org/v2/gh/AHartmaier/ML-Tutorial.git/HEAD](https://mybinder.org/v2/gh/AHartmaier/ML-Tutorial.git/HEAD)
 
 ## Installation
 
