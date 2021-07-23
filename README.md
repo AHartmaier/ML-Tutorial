@@ -6,7 +6,7 @@
   - Organization: ICAMS, Ruhr University Bochum, Germany
   - Contact: <alexander.hartmaier@rub.de>
 
-Machine learning methods are trained with different data sets to work either as regression functions or to find the delimiter lines between classes of data points with different characteristics.
+Machine learning methods are trained with different data sets to work either as regression functions or to find the delimiter lines between classes of data points with different characteristics. Furthermore, it is demonstrated how a surrogate model can be built by supervised learning.
 
 ## Jupyter notebooks on Binder
 
