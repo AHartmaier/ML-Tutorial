@@ -6,7 +6,9 @@
   - Organization: ICAMS, Ruhr University Bochum, Germany
   - Contact: <alexander.hartmaier@rub.de>
 
-Machine learning methods are trained with different data sets to work either as regression functions or to find the delimiter lines between classes of data points with different characteristics. Furthermore, it is demonstrated how a surrogate model can be built by supervised learning.
+Machine learning methods are trained with different data sets to work either as regression functions or to find the delimiter lines between classes of data points with different characteristics. Furthermore, it is demonstrated how a surrogate model can be built by supervised learning. 
+
+Additionally, a full chain of tutorials has been added to demosntrate (i) how the anisotropic elastic properties of composite material can be determined by finite element analysis, (ii) how consistent data sets on the microstructural features (volume fraction and geometrical arrangement of filler phase) and the resulting elastic properties can be generated, and (iii) how different machine learning algorithms can be trained on such data.
 
 ## Jupyter notebooks on Binder
 
@@ -42,9 +44,9 @@ $ conda activate ml-tutorial
 
 5. Start JupyterLab (or juypter notebook)  
 ```
-$ jupyter lab
+$ jupyter lab index.ipynb
 ```
-6. Open the jupyter notebooks (.ipynb) to follow the tutorials.
+
 
 ## De-Installation
 If you want to remove the tutorial from your hardware, you need to follow those steps:
@@ -72,6 +74,7 @@ The tutorial uses the following packages, which are automatically installed in t
  - [scikit-learn](https://scikit-learn.org/stable/) for machine learning algorithms
  - [MatPlotLib](https://matplotlib.org/) for graphical output
  - [pandas](https://pandas.pydata.org/) for data import
+ - [pylabfea](https://pypi.org/project/pylabfea/) for finite element analysis (FEA)
 
 ## License
 
