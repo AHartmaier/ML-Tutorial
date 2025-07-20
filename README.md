@@ -15,7 +15,7 @@ Additionally, a full chain of tutorials has been added to demosntrate (i) how th
 The tutorial is conveniently used with Jupyter notebooks that can be directly accessed with Binder:  
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/AHartmaier/ML-Tutorial.git/HEAD)
 
-[https://mybinder.org/v2/gh/AHartmaier/ML-Tutorial.git/HEAD](https://mybinder.org/v2/gh/AHartmaier/ML-Tutorial.git/HEAD)
+[https://mybinder.org/v2/gh/AHartmaier/ML-Tutorial.git](https://mybinder.org/v2/gh/AHartmaier/ML-Tutorial.git/HEAD)
 
 ## Installation
 
@@ -70,7 +70,7 @@ $ cd ..; rm -rf ML-Tutorial
 
 The tutorial uses the following packages, which are automatically installed in the environment when following the instruction above:
 
- - [NumPy](http://numpy.scipy.org) for array handling and mathematical operations
+ - [NumPy](http://numpy.org) for array handling and mathematical operations
  - [scikit-learn](https://scikit-learn.org/stable/) for machine learning algorithms
  - [MatPlotLib](https://matplotlib.org/) for graphical output
  - [pandas](https://pandas.pydata.org/) for data import
