@@ -73,7 +73,7 @@ The tutorial uses the following packages, which are automatically installed in t
  - [NumPy](http://numpy.org) for array handling and mathematical operations
  - [scikit-learn](https://scikit-learn.org/stable/) for machine learning algorithms
  - [MatPlotLib](https://matplotlib.org/) for graphical output
- - [pandas](https://pandas.pydata.org/) for data import
+ - [ipympl](https://pypi.org/project/ipympl/) defining widgets for user interaction
  - [pylabfea](https://pypi.org/project/pylabfea/) for finite element analysis (FEA)
 
 ## License
@@ -83,6 +83,6 @@ software, and you are welcome to redistribute it under the conditions of
 the GNU General Public License
 ([GPLv3](http://www.fsf.org/licensing/licenses/gpl.html))
 
-The contents of the notebooks are published under the 
+The contents of notebooks and documents are published under the 
 Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License
 ([CC BY-NC-SA 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0/))
