@@ -6,7 +6,6 @@ dependencies:
   - matplotlib-base
   - scikit-learn
   - ipympl
-  - pandas
   - jupyter
   - jupyterlab
   - pip
